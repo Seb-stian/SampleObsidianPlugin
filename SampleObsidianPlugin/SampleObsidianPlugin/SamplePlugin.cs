@@ -3,7 +3,9 @@ using Obsidian.Plugins.API.Services;
 
 namespace SampleObsidianPlugin
 {
-    [Plugin(Authors = "Seb-stian", Description = "Sample plugin used for remote plugin testing.", Name = "Sample Remote Plugin", ProjectUrl = "https://github.com/Seb-stian/SampleObsidianPlugin", Version = "1.0")]
+    [Plugin(Name = "Sample Remote Plugin", Authors = "Seb-stian", Version = "1.0",
+        Description = "Sample plugin used for remote plugin testing.",
+        ProjectUrl = "https://github.com/Seb-stian/SampleObsidianPlugin")]
     public class SamplePlugin : PluginBase
     {
         [Inject] public ILogger Logger { get; set; }
