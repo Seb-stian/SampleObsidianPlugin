@@ -1,5 +1,5 @@
-﻿using Obsidian.Plugins.API;
-using Obsidian.Plugins.API.Services;
+﻿using Obsidian.API.Plugins;
+using Obsidian.API.Plugins.Services;
 
 namespace SampleObsidianPlugin
 {
