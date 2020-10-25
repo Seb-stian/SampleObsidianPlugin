@@ -18,7 +18,13 @@ namespace SampleObsidianPlugin
         // For dependencies
         public void Spam(string message)
         {
-            for (int i = 0; i < 10; i++)
+            Spam(message, 10);
+        }
+
+        // For dependencies
+        public void Spam(string message, int n)
+        {
+            for (int i = 0; i < n; i++)
             {
                 Logger.LogDebug(message);
             }
