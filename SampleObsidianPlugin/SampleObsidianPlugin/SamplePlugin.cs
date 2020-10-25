@@ -14,5 +14,14 @@ namespace SampleObsidianPlugin
         {
             Logger.Log("Hello from github.com/Seb-stian/SampleObsidianPlugin!");
         }
+
+        // For dependencies
+        public void Spam(string message)
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                Logger.LogDebug(message);
+            }
+        }
     }
 }
