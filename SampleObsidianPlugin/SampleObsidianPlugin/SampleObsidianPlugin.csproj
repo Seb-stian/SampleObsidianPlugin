@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Obsidian\Obsidian.API\Obsidian.API.csproj" />
-    <ProjectReference Include="..\..\..\Obsidian\Obsidian.Plugins.API\Obsidian.Plugins.API.csproj" />
   </ItemGroup>
 
 </Project>
