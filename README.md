@@ -1,2 +1,2 @@
 # SampleObsidianPlugin
-Sample plugin for https://github.com/Naamloos/Obsidian
+Sample plugin for the [Obsidian Minecraft Server](https://github.com/ObsidianMC/Obsidian)
